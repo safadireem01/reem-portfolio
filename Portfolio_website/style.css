@@ -1,0 +1,275 @@
+header{ 
+    background: color white; color: #006DA0; padding: 15px; 
+}
+
+nav{ 
+    position:static; 
+    top: 0%; width: 100%;
+    margin-top: 7px;
+    display:flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: white; 
+}
+
+nav .nav-left h1{
+    color:#006DA0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 32px; 
+    margin-left: 20px;
+} 
+
+nav .nav-center li a{ 
+    color: #006DA0;
+    text-decoration: none; 
+    font-size: 22px; 
+    font-weight: 350; 
+    text-align: center;
+} 
+
+nav .nav-Right .fab{
+     color: #006DA0; 
+     height: auto;
+} 
+ 
+img .twitter{
+    margin-right: 50px;
+}
+
+.linkedin{
+    margin-right: 30px;
+} 
+ 
+.intro {
+    background-color: #ffffff;
+    color: #006DA0;
+    text-align: left;
+    font-size: 32px;
+    margin-left: 90px;
+    margin-top: 85px;
+} 
+ 
+.intro h4{
+    font-family:'Gill Sans';
+    font-size: 24px;
+}
+
+.ButtonResume{
+    background-color:#ffffff;
+    border: #004E75 solid 1px;
+    color: #004E75;
+    border-radius:20px ;
+    height: 35px; width: 158px;
+} 
+    
+.ButtonResume:hover{
+    background-color:#cbe0f4 ;
+}
+     
+.ButtonContact{
+    background-color:#ffffff;
+    border: #004E75 solid 1px;
+    color: #004E75;
+    border-radius:20px ;
+    height: 35px;
+    width: 158px;
+}
+
+
+.ButtonContact:hover{
+    background-color:#cbe0f4 ;
+}
+
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+     
+nav ul li{
+    display: inline;
+    margin: 10px;
+}
+
+
+nav ul li a{
+    color: #183a37;
+    text-decoration: none;
+}
+             
+section{
+    margin-top: 20px;
+    color: #183a37;
+}
+
+ul {
+    font-size: 20px;
+}
+                     
+ul li{
+    font-size: 17px;
+    text-align: left;
+}   
+
+
+h1 {
+    font-size: 25px;
+    text-align: center;
+    color: #183a37;
+}
+                             
+.img1{
+    margin-left: 40%;
+    margin-top: -17%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+                                 
+.email-button {
+    text-align: center;
+}
+
+.linkedin-link {
+    font-size: 18px;
+    color: #183a37;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.linkedin-link:hover {
+    color: #183a37;
+}
+
+/* ABOUT PAGE */
+.about {
+    width: 80%;
+    margin: 60px auto;
+    color: #006DA0;
+}
+
+.about h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #006DA0;
+}
+
+.about p {
+    font-size: 20px;
+    line-height: 1.6;
+    border-left: 4px solid #006DA0;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+.skills-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.skills-box img {
+    width: 150px;
+    height: auto;
+}
+
+
+/* PROJECTS PAGE */
+.projects-title {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.projects-container {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.project-card {
+    margin-bottom: 60px;
+}
+
+.project-card h2 {
+    color: #004E75;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    color: #006DA0;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.project-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-images img {
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 12px rgba(0,0,0,0.1);
+}
+
+.project-images-spark img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 12px rgba(0,0,0,0.1);
+}
+
+.project-images-logo img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 12px rgba(0,0,0,0.1);
+}
+.footer{
+margin-top: 150px;
+
+  background-color: #004E75;
+  color: #ffffff;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  flex-wrap: wrap; 
+}
+
+.footer .phone,
+.footer .email {
+  display: flex;
+  align-items: center;
+  gap: 8px; 
+}
+
+.footer i {
+  font-size: 16px;
+  color: white;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #ffffff;
+    border: 2px solid #004E75;
+    color: #004E75;
+    border-radius: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #cbe0f4;
+    color: #004E75;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
